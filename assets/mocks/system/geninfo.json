@@ -1,0 +1,157 @@
+{
+    "status": 200,
+    "reason": "ok",
+    "osinfo": {
+      "os release": "CentOS release 6.4 (Final)  ",
+      "os version": "Linux 2.6.32-358.el6.x86_64",
+      "uptime": "18 days 21 hours 34 minutes 6 seconds",
+      "cpu load": "T1=1.72 , T5=0.82 ,T15=0.34",
+      "memory": "total:3830 MB used:1025 MB"
+    },
+    "xms": [
+      {
+        "release": "3.5.20036 SU 7",
+        "state": "RUNNING"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "3.4.20036 SU 7",
+        "state": "STOPPED"
+      },
+      {
+        "release": "5555",
+        "state": "STOPPED"
+      },
+      {
+        "release": "666",
+        "state": "STOPPED"
+      }
+    ],
+    "system_storage": {
+      "/dev/mapper/vg_kvmc64x64a-lv_root (/)": "total: 7693 MB, used: 6764 MB",
+      "/dev/vda1 (/boot)": "total: 484 MB, used: 37 MB"
+    },
+    "system_time": {
+      "time": "Fri Jun 29 15:26:43 2018",
+      "zone": "America/Montreal"
+    }
+  }

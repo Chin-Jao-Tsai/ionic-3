@@ -1,0 +1,125 @@
+{
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "INVALID_EMAIL": "Invalid Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "PASSWORD_REQUIRED": "Password required",
+  "FORGOT_PASSWORD": "Forgot Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
+
+  "TAB1_TITLE": "Items",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
+
+  "BUTTONS": {
+    "STOP":"Stop",
+    "RESTART":"Restart",
+    "GRACEFUL_SHUTDOWN":"Graceful Shutdown",
+    "REFRESH":"Refresh",
+    "DISABLE":"Disable"
+  },
+  
+  "SYSTEM": {
+    "TITLE": "System",
+    "GENERAL": {
+      "TITLE": "General",
+      "XMS": "XMS",
+        "release": "Release",
+        "state": "State",
+      "OS_INFO": "OS INFO",
+        "os release": "Release",
+        "os version": "Version",
+        "uptime": "Uptime",
+        "cpu load": "CPU Load",
+        "memory": "Memory",
+      "SYSTEM_STORAGE": "SYSTEM STORAGE",
+      "SYSTEM_TIME": "SYSTEM TIME",
+        "time": "Time",
+        "zone": "Zone"
+    },
+    "SERVICES":{
+      "Overall_Status":"Overall Status",
+      "Graceful_Shutdown_Timeout":"Graceful Shutdown Timeout (secs)",
+      "Startup_Mode":"Startup Mode",
+      "Services_Shutdown_In":"Services Shutdown In (secs)",
+      "Optional_Services":"Optional Services",
+      "Mandatory_Services":"Mandatory Services",
+      "OS_Services":"OS Services",
+
+      "RestartCommandAlreadyInProcess": "Restart command already in process.",
+      "RestartRequestNote": "Note: restart request may take several minutes."
+
+    }
+  },
+
+  
+  "NETWORK": {
+    "TITLE": "Network",
+    "INTERFACE":{
+      "TITLE":"Interface Configuration"
+    },
+    "DNS":{
+      "TITLE":"DNS Configuration"
+    },
+    "NAT":{
+      "TITLE":"NAT Configuration"
+    }
+  },
+
+  "TUTORIAL_SKIP_BUTTON": "Skip",
+  "TUTORIAL_CONTINUE_BUTTON": "Continue",
+
+  "TUTORIAL_SLIDE1_TITLE": "Welcome to the Ionic Super Starter",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Ionic Super Starter</b> is a fully-featured Ionic starter with many pre-built pages and best practices.",
+
+  "TUTORIAL_SLIDE2_TITLE": "How to use the Super Starter",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Assemble the various page types you want and remove the ones you don't. We've provided many common mobile app page layouts, like login and signup pages, tabs, and this tutorial page.",
+
+  "TUTORIAL_SLIDE3_TITLE": "Getting Started",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Need help? Check out the Super Starter README for a full tutorial",
+
+  "TUTORIAL_SLIDE4_TITLE": "Ready to Play?",
+
+  "WELCOME_INTRO": "The starting point for your next great Ionic app",
+
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
+
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
+
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
+
+  "WELCOME_TITLE": "Welcome",
+
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_SUCCESS": "Signed in.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "LIST_MASTER_TITLE": "Items",
+
+  "ITEM_CREATE_TITLE": "New Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
+
+  "ITEM_NAME_PLACEHOLDER": "Name",
+  "ITEM_ABOUT_PLACEHOLDER": "About",
+
+  "DONE_BUTTON": "Done",
+  "CANCEL_BUTTON": "Cancel",
+  "DELETE_BUTTON": "Delete",
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search the items list, e.g. \"Donald Duck\""
+}

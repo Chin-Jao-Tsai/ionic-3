@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-grid fixed>
+    <ion-card>
+      <ion-list>
+        <ion-list-header color="dark">
+          XMS
+        </ion-list-header>
+        <ion-item *ngFor="let key of data?.xms" >
+          <ion-label>{{key.release}}</ion-label>
+          <ion-note item-end>{{key.state}}</ion-note>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </ion-grid>
+</ion-content>
