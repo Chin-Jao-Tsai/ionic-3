@@ -3,7 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { Api } from '../providers/api';
+import { GreetingService } from '../providers/greeting.service';
 
 import { HomePage } from '../pages/home/home';
 import { LabPage } from '../pages/lab/lab';
@@ -27,7 +27,7 @@ import { LabPage } from '../pages/lab/lab';
     LabPage
   ],
   providers: [
-    Api,
+    GreetingService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
