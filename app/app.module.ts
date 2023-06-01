@@ -7,13 +7,15 @@ import { GreetingService } from '../providers/greeting.service';
 
 import { HomePage } from '../pages/home/home';
 import { LabPage } from '../pages/lab/lab';
+import { BlockCopyPasteDirective } from './directive/disableCopyPaste/disableCopyPaste';
 
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LabPage
+    LabPage,
+    BlockCopyPasteDirective
   ],
   imports: [
     BrowserModule,
