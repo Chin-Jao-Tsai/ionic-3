@@ -1,20 +1,21 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ModalController } from 'ionic-angular';
+import { GreetingService } from '../../providers/greeting.service';
+import { LabPage } from '../lab/lab';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  constructor(public navCtrl: NavController) {
-
+    popData: any;
+    constructor(public navCtrl: NavController, public mc: ModalController,
+              public gs: GreetingService) {
   }
-
   
   ionViewWillEnter(){
     console.log('ionViewWillEnter: general');
   }
 
-  ngOnInit() {
-  }
+  
 }

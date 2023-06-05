@@ -7,7 +7,8 @@ import { GreetingService } from '../providers/greeting.service';
 
 import { HomePage } from '../pages/home/home';
 import { LabPage } from '../pages/lab/lab';
-import { BlockCopyPasteDirective } from './directive/disableCopyPaste/disableCopyPaste';
+import { BlockCopyPasteDirective } from '../directive/disableCopyPaste/disableCopyPaste';
+import { SecondPage } from '../pages/second/second';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { BlockCopyPasteDirective } from './directive/disableCopyPaste/disableCop
     MyApp,
     HomePage,
     LabPage,
+    SecondPage,
     BlockCopyPasteDirective
   ],
   imports: [
@@ -26,7 +28,8 @@ import { BlockCopyPasteDirective } from './directive/disableCopyPaste/disableCop
   entryComponents: [
     MyApp,
     HomePage,
-    LabPage
+    LabPage,
+    SecondPage
   ],
   providers: [
     GreetingService,

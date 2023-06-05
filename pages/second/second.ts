@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { ViewController } from 'ionic-angular';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SecondPage } from '../second/second';
+import { HomePage } from '../home/home';
 
 /**
- * Generated class for the LabPage page.
+ * Generated class for the SecondPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,19 +12,18 @@ import { SecondPage } from '../second/second';
 
 @IonicPage()
 @Component({
-  selector: 'page-lab',
-  templateUrl: 'lab.html',
+  selector: 'page-second',
+  templateUrl: 'second.html',
 })
-export class LabPage {
+export class SecondPage {
   data: any;
-  callback: any;
 
   constructor(public navCtrl: NavController, public viewCtrl: ViewController,
               public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LabPage');
+    console.log('ionViewDidLoad SecondPage');
   }
 
 }
