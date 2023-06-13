@@ -9,12 +9,21 @@ import { LabPage } from '../lab/lab';
 })
 export class HomePage {
     popData: any;
+    bgColor = '';
     constructor(public navCtrl: NavController, public mc: ModalController,
               public gs: GreetingService) {
   }
   
   ionViewWillEnter(){
     console.log('ionViewWillEnter: general');
+  }
+
+  mouseEnter(event){
+    if(event) {
+      this.bgColor = 'blue';
+    } else {
+      this.bgColor = '';
+    }
   }
 
   

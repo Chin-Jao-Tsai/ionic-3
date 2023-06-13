@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { LabPage } from '../pages/lab/lab';
 import { BlockCopyPasteDirective } from '../directive/disableCopyPaste/disableCopyPaste';
 import { SecondPage } from '../pages/second/second';
+import { HighlightDirective } from '../directive/highlight.directive';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SecondPage } from '../pages/second/second';
     HomePage,
     LabPage,
     SecondPage,
-    BlockCopyPasteDirective
+    BlockCopyPasteDirective,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
